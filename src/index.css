@@ -8,42 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 25% 97%;
-    --foreground: 220 20% 15%;
+    --background: 0 0% 12%;
+    --foreground: 140 100% 70%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 20% 15%;
+    --card: 0 0% 18%;
+    --card-foreground: 140 100% 70%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 20% 15%;
+    --popover: 0 0% 18%;
+    --popover-foreground: 140 100% 70%;
 
-    --primary: 220 80% 55%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 140 100% 50%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 155 60% 50%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 140 80% 45%;
+    --secondary-foreground: 0 0% 0%;
 
-    --muted: 220 15% 92%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 0 0% 25%;
+    --muted-foreground: 140 60% 60%;
 
-    --accent: 265 80% 60%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 140 100% 50%;
+    --accent-foreground: 0 0% 0%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 88%;
-    --input: 220 20% 88%;
-    --ring: 220 80% 55%;
+    --border: 140 50% 30%;
+    --input: 140 50% 30%;
+    --ring: 140 100% 50%;
 
     --radius: 1rem;
     
-    --group-a: 210 100% 65%;
-    --group-a-light: 210 100% 95%;
-    --group-b: 150 70% 55%;
-    --group-b-light: 150 70% 95%;
-    --group-sort: 220 15% 75%;
-    --group-sort-light: 220 15% 96%;
+    --group-a: 140 100% 50%;
+    --group-a-light: 140 100% 10%;
+    --group-b: 140 80% 45%;
+    --group-b-light: 140 80% 12%;
+    --group-sort: 140 30% 35%;
+    --group-sort-light: 0 0% 15%;
     
     --shadow-soft: 0 4px 20px -4px hsla(220, 50%, 40%, 0.12);
     --shadow-hover: 0 8px 30px -6px hsla(220, 50%, 40%, 0.18);
@@ -68,40 +68,40 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 220 25% 10%;
-    --foreground: 220 15% 92%;
+    --background: 0 0% 12%;
+    --foreground: 140 100% 70%;
 
-    --card: 220 20% 14%;
-    --card-foreground: 220 15% 92%;
+    --card: 0 0% 18%;
+    --card-foreground: 140 100% 70%;
 
-    --popover: 220 20% 14%;
-    --popover-foreground: 220 15% 92%;
+    --popover: 0 0% 18%;
+    --popover-foreground: 140 100% 70%;
 
-    --primary: 220 80% 60%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 140 100% 50%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 155 60% 50%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 140 80% 45%;
+    --secondary-foreground: 0 0% 0%;
 
-    --muted: 220 20% 20%;
-    --muted-foreground: 220 10% 60%;
+    --muted: 0 0% 25%;
+    --muted-foreground: 140 60% 60%;
 
-    --accent: 265 80% 65%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 140 100% 50%;
+    --accent-foreground: 0 0% 0%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 22%;
-    --input: 220 20% 22%;
-    --ring: 220 80% 60%;
+    --border: 140 50% 30%;
+    --input: 140 50% 30%;
+    --ring: 140 100% 50%;
     
-    --group-a: 210 100% 60%;
-    --group-a-light: 210 80% 20%;
-    --group-b: 150 70% 50%;
-    --group-b-light: 150 60% 20%;
-    --group-sort: 220 15% 30%;
-    --group-sort-light: 220 15% 18%;
+    --group-a: 140 100% 50%;
+    --group-a-light: 140 100% 10%;
+    --group-b: 140 80% 45%;
+    --group-b-light: 140 80% 12%;
+    --group-sort: 140 30% 35%;
+    --group-sort-light: 0 0% 15%;
     
     --shadow-soft: 0 4px 20px -4px hsla(220, 80%, 10%, 0.4);
     --shadow-hover: 0 8px 30px -6px hsla(220, 80%, 10%, 0.6);

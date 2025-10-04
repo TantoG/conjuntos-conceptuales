@@ -25,7 +25,7 @@ export const DraggableItem = ({ id, label, group }: DraggableItemProps) => {
       style={style}
       {...listeners}
       {...attributes}
-      className={`${bgColor} text-white px-6 py-3 rounded-full cursor-grab active:cursor-grabbing transition-all duration-300 hover:scale-105 shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)] font-medium text-sm`}
+      className={`${bgColor} text-black px-6 py-3 rounded-full cursor-grab active:cursor-grabbing transition-all duration-300 hover:scale-105 shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-hover)] font-medium text-sm`}
     >
       {label}
     </div>
