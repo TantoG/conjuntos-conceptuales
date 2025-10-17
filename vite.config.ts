@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/conjuntos-conceptuales/',
+  base: mode === 'production' ? '/conjuntos-conceptuales/' : '/',
   server: {
     host: "::",
     port: 8080,
