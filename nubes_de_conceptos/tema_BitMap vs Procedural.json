@@ -1,0 +1,30 @@
+{
+  "actividad": {
+    "titulo": "Bitmap vs Procedural",
+    "descripcion": "Arrastra cada concepto a la categoría correcta.",
+    "grupos": {
+      "grupoA": {
+        "nombre": "BITMAP",
+        "conceptos_correctos": [
+          "Fotografía Digital",
+          "Pintura Digital",
+          "Pixeles",
+          "DPI",
+          "Archivo JPEG",
+          "Resolución fija"
+        ]
+      },
+      "grupoB": {
+        "nombre": "PROCEDURAL",
+        "conceptos_correctos": [
+          "Fractales",
+          "Voronoid",
+          "Resolución adaptiva",
+          "Vectores",
+          "Gráficos generativos",
+          "Texturas matemáticas"
+        ]
+      }
+    }
+  }
+}
