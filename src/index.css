@@ -45,6 +45,13 @@ All colors MUST be HSL.
     --group-sort: 140 30% 35%;
     --group-sort-light: 0 0% 15%;
     
+    --group-a-red: 0 100% 50%;
+    --group-a-light-red: 0 100% 10%;
+    --group-b-red: 0 80% 45%;
+    --group-b-light-red: 0 80% 12%;
+    --group-sort-red: 0 30% 35%;
+    --group-sort-light-red: 0 0% 15%;
+
     --shadow-soft: 0 4px 20px -4px hsla(220, 50%, 40%, 0.12);
     --shadow-hover: 0 8px 30px -6px hsla(220, 50%, 40%, 0.18);
     
@@ -62,10 +69,27 @@ All colors MUST be HSL.
 
     --sidebar-accent-foreground: 240 5.9% 10%;
 
-    --sidebar-border: 220 13% 91%;
+        --sidebar-ring: 217.2 91.2% 59.8%;
 
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
+      }
+
+    
+
+      [data-color-scheme="red"] {
+
+        --group-a: var(--group-a-red);
+
+        --group-a-light: var(--group-a-light-red);
+
+        --group-b: var(--group-b-red);
+
+        --group-b-light: var(--group-b-light-red);
+
+        --group-sort: var(--group-sort-red);
+
+        --group-sort-light: var(--group-sort-light-red);
+
+      }
 
   .dark {
     --background: 0 0% 12%;

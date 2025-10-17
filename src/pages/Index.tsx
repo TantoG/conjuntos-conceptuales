@@ -1,7 +1,7 @@
-import { SortingGame } from "@/components/SortingGame";
+import { Exam } from "@/components/Exam";
 
 const Index = () => {
-  return <SortingGame />;
+  return <Exam />;
 };
 
 export default Index;
