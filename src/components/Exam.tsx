@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { SortingGame } from "./SortingGame";
+import cpuGpuData from "@/assets/tema_CPU_GPU.json";
+import bitmapProceduralData from "@/assets/tema_BitMap vs Procedural.json";
 
 interface GameData {
   actividad: {
@@ -26,13 +28,8 @@ export const Exam = () => {
   const [isFinished, setIsFinished] = useState(false);
 
   useEffect(() => {
-    Promise.all([
-      fetch("/nubes_de_conceptos/tema_CPU_GPU.json").then((res) => res.json()),
-      fetch("/nubes_de_conceptos/tema_BitMap vs Procedural.json").then((res) => res.json()),
-    ]).then((data) => {
-      setGameData(data);
-      setIsLoading(false);
-    });
+    setGameData([cpuGpuData, bitmapProceduralData]);
+    setIsLoading(false);
   }, []);
 
   const handleNext = () => {

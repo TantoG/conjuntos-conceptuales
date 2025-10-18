@@ -1,0 +1,30 @@
+{
+  "actividad": {
+    "titulo": "CPU vs GPU",
+    "descripcion": "Arrastra cada concepto a la categoría correcta.",
+    "grupos": {
+      "grupoA": {
+        "nombre": "CPU",
+        "conceptos_correctos": [
+          "Final render",
+          "Cycles renderer",
+          "Funciones generales",
+          "Procesamiento en Serie",
+          "Lenguaje CISC",
+          "Procesador central"
+        ]
+      },
+      "grupoB": {
+        "nombre": "GPU",
+        "conceptos_correctos": [
+          "Eevee renderer",
+          "Placa de Video",
+          "Procesamiento Paralelo",
+          "Video Juegos",
+          "Lenguaje RISC",
+          "Lenguaje acotado"
+        ]
+      }
+    }
+  }
+}
